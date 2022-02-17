@@ -61,26 +61,26 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(logTag, "onStart")
+        Log.d(logTag, "Activity onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(logTag, "onResume")
+        Log.d(logTag, "Activity onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(logTag, "onPause")
+        Log.d(logTag, "Activity onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(logTag, "onStop")
+        Log.d(logTag, "Activity onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(logTag, "onDestroy")
+        Log.d(logTag, "Activity onDestroy")
     }
 }
